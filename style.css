@@ -1,0 +1,20 @@
+html, body { overflow: hidden; }
+
+.container {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.center {
+    margin: auto;
+    width: 100%;
+}
+iframe {
+    overflow: hidden;
+    /* border:0px solid white; overflow:hidden; */
+    /* pointer-events:none; */
+  }
+
+  
