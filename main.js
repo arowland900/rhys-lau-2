@@ -9,13 +9,13 @@
 // document.body.appendChild(iframe);
 let idx = 0
 const next = document.getElementById('next')
-const container1 = document.querySelector(`.c1`)
-const container2 = document.querySelector(`.c2`)
-const container3 = document.querySelector(`.c3`)
-const container4 = document.querySelector(`.c4`)
-const container5 = document.querySelector(`.c5`)
-const container6 = document.querySelector(`.c6`)
-let arr = [container1, container2, container3,container4,container5,container6]
+const c1 = document.querySelector(`.c1`)
+const c2 = document.querySelector(`.c2`)
+const c3 = document.querySelector(`.c3`)
+const c4 = document.querySelector(`.c4`)
+const c5 = document.querySelector(`.c5`)
+const c6 = document.querySelector(`.c6`)
+let arr = [c1, c2, c3,c4,c5,c6]
 
 next.addEventListener('click', function (e) {
     for(let i = 0; i < arr.length; i++){
@@ -26,13 +26,4 @@ next.addEventListener('click', function (e) {
         }
     }
     idx = (idx + 1) % 6
-    // if (!idx) {
-    //     container1.style.display = 'none'
-    //     container2.style.display = 'block'
-    //     idx += 1
-    // } else {
-    //     container1.style.display = 'block'
-    //     container2.style.display = 'none'
-    //     idx -= 1 
-    // }
 })
