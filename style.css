@@ -1,3 +1,13 @@
+:root:before {
+    content: url(/files/cv.pdf)
+             url(/files/resume.pdf);
+    /* partial fallback */
+    background-image: url(/files/resume.pdf);
+    visibility: hidden;
+    position: absolute;
+    left: -999em;
+}
+
 html, body { background-color: #525659 ; }
 div { overflow: hidden !important;}
 
@@ -11,9 +21,10 @@ div { overflow: hidden !important;}
     padding: 10px;
     text-align: center;
     display: block;
+    /* background-color: white; */
 }
 .c1, .c2, .c3, .c4, .c5, c6 {
-    display: none;
+    display: block;
 }
 
 .center {
@@ -21,7 +32,7 @@ div { overflow: hidden !important;}
     width: 40%;
 }
 iframe {
-    /* background-color: aliceblue !important; */
+    background-color: aliceblue !important;
     overflow: hidden;
     /* border:0px solid white; overflow:hidden; */
     /* pointer-events:none; */
