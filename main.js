@@ -7,4 +7,13 @@
 // iframe.setAttribute('scrolling', 'no');
 // iframe.setAttribute('onload' ,"setIframeHeight(this.id)");
 // document.body.appendChild(iframe);
+let idx = 1
+const next = document.getElementById('next')
+const container = document.querySelector(`.container${idx}`)
+const otherContainer = document.querySelector(`.container${idx+1}`)
 
+next.addEventListener('click', function(e){
+    container.style.display = 'none'
+    otherContainer.style.display = 'block'
+    idx += 1
+})

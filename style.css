@@ -1,20 +1,43 @@
-html, body { overflow: hidden; }
+html, body { background-color: #525659 ; }
+div { overflow: hidden !important;}
 
-.container {
+.container1 {
+    overflow: hidden !important;
+    /* background-color: #525659; */
     margin: auto;
-    width: 50%;
-    border: 3px solid green;
+    width: 100%;
+    /* border: 3px solid green; */
     padding: 10px;
+    text-align: center;
+    display: block;
+}
+.container2 {
+    overflow: hidden !important;
+    /* background-color: #525659; */
+    margin: auto;
+    width: 100%;
+    /* border: 3px solid green; */
+    padding: 10px;
+    text-align: center;
+    display: none;
 }
 
 .center {
     margin: auto;
-    width: 100%;
+    width: 40%;
 }
 iframe {
+    /* background-color: aliceblue !important; */
     overflow: hidden;
     /* border:0px solid white; overflow:hidden; */
     /* pointer-events:none; */
-  }
+}
 
+body {
+    text-align: center;
+}
   
+header{
+    margin: auto;
+    padding: 2rem;
+}
