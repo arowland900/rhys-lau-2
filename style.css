@@ -55,7 +55,11 @@ header{
     /* align-items: center; */
     /* justify-content: space-between;  */
 }
-.fakePDF {
+.pages {
+    margin: auto;
+    display: flex;
+}
+.fakePDF1 {
     background-color: white;
     height: 80%;
     width: 500px;
@@ -63,10 +67,21 @@ header{
     padding-bottom: 2%;
     padding-left: 1%;
     padding-right: 1%;
-    margin: auto;
-    /* margin-left: ; */
-    margin-top: 5%;
-    
+    margin-right: 20px;
+    margin-left: 2%;
+    margin-top: 5%;  
+}
+.fakePDF2 {
+    background-color: white;
+    height: 80%;
+    width: 500px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 20px;
+    margin-right: 2%;
+    margin-top: 5%;  
 }
 .pageNum {
     
