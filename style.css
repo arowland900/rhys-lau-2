@@ -111,9 +111,9 @@ header{
 }
 
 @media screen and (min-width: 1200px) {
-    .fakePDF2 {
+    /* .fakePDF2 {
         min-width: 564px;
-    }
+    } */
 }
 
 
@@ -136,6 +136,7 @@ header{
         margin-left: 2%;
         margin-top: 5%;  
         position: relative;
+        /* min-width: 564px; */
     }
 }
 
