@@ -51,6 +51,7 @@ header{
 
 /* OTHER.HTML */
 .book {
+    /* white-space: nowrap; */
     display: flex;
     /* align-items: center; */
     /* justify-content: space-between;  */
@@ -87,7 +88,7 @@ header{
     position: relative;
     /* min-width: 564px; */
 }
-.leftP {
+#leftP {
     color: red;
     height: 500px;
     padding-top: 20px;
@@ -95,7 +96,7 @@ header{
     padding-right: 50px;
     padding-left: 50px;
 }
-.rightP * {
+#rightP * {
     /* text-align: "left"; */
     height: 500px;
     padding-top: 20px;
