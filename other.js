@@ -41,3 +41,6 @@ function changeDisplay(e){
     pageNum.textContent = idx + 2
 
 }
+
+
+
