@@ -1,6 +1,8 @@
 const nextPage = document.getElementById('nextPage')
 const rightP = document.getElementById('rightP')
 console.log(nextPage)
+const pageNum = document.querySelectorAll('.pageNum')[1]
+console.log(pageNum)
 
 let idx = 1
 
@@ -36,5 +38,6 @@ function changeDisplay(e){
         `
         idx = 1
     }
+    pageNum.textContent = idx + 2
 
 }
