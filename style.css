@@ -2,17 +2,35 @@
 .center {
     margin: auto;
     width: 60%;
-    margin-top: -650px;
+    /* margin-top: -650px; */
 }
-/* 
-header{
+.main1 {
+    padding: 3vw;
+}
+
+/* .musicHolder .pdfHolder {
     margin: auto;
-    padding: 2rem;
+    width: 100%;
 } */
 
-iframe {
-    margin-top: 50px;
+.container {
+    display: flex;
+    justify-content: space-between;
 }
 
 
+#top {
+    margin: auto;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 3vh;
+    padding-bottom: 1vh;
+}
 
+@media screen and (max-width: 990px) {
+    .center {
+        width: 100%;
+        margin-top: 0px;
+        height: 500px;
+    }
+}
