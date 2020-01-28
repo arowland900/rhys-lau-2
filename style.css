@@ -1,47 +1,31 @@
-:root:before {
-    content: url(/files/cv.pdf)
-             url(/files/resume.pdf);
-    /* partial fallback */
-    background-image: url(/files/resume.pdf);
-    visibility: hidden;
-    position: absolute;
-    left: -999em;
-}
+
 
 html, body { background-color: #525659 ; }
-div { overflow: hidden !important;}
 
 .container {
-    overflow: hidden !important;
+    /* overflow: hidden !important; */
     /* background-color: #525659; */
-    margin: auto;
-    width: 100%;
-    height: 60%;
+    /* margin: auto; */
+    /* width: 100%;
+    height: 60%; */
     /* border: 3px solid green; */
-    padding: 10px;
-    text-align: center;
-    display: block;
+    /* padding: 20px; */
+    /* text-align: center; */
+    /* display: block; */
     /* background-color: white; */
 }
 .c1, .c2, .c3, .c4, .c5, c6 {
-    display: block;
+    display: inline;
 }
 
+.bigContainer {
+    /* display: inline; */
+}
 .center {
-    margin: auto;
-    width: 40%;
-}
-iframe {
-    background-color: aliceblue !important;
-    overflow: hidden;
-    /* border:0px solid white; overflow:hidden; */
-    /* pointer-events:none; */
+    /* margin: auto; */
+    width: 70%;
 }
 
-body {
-    text-align: center;
-}
-  
 header{
     margin: auto;
     padding: 2rem;
