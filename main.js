@@ -1,5 +1,5 @@
 const next = document.getElementById('next')
-const nextPage = document.getElementById('nextPage')
+
 const c1 = document.querySelector(`.c1`)
 const c2 = document.querySelector(`.c2`)
 const c3 = document.querySelector(`.c3`)
@@ -7,6 +7,7 @@ const c4 = document.querySelector(`.c4`)
 const c5 = document.querySelector(`.c5`)
 const c6 = document.querySelector(`.c6`)
 const containers = document.querySelectorAll('.container')
+
 
 let idx = 1
 let arr = [c1, c2, c3,c4,c5,c6]
@@ -19,8 +20,8 @@ for(let j = 0; j < arr.length; j++){
 }
 
 
+
 next.addEventListener('click', hideDisplay)
-nextPage.addEventListener('click', changeDisplay)
 
 function hideDisplay(e){
     for(let i = 0; i < arr.length; i++){
@@ -30,8 +31,4 @@ function hideDisplay(e){
         : document.querySelector(`.c${i+1}`).style.display = 'none'
     }
     idx = (idx + 1) % 6
-}
-
-function changeDisplay(e){
-    
 }
