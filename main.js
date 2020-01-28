@@ -12,12 +12,12 @@ const containers = document.querySelectorAll('.container')
 let idx = 1
 let arr = [c1, c2, c3,c4,c5,c6]
 
-containers.forEach((e,i) => { if(i )e.style.display = 'none' })
+// containers.forEach((e,i) => { if(i )e.style.display = 'none' })
 
-for(let j = 0; j < arr.length; j++){
-    console.log('hit!')
-    hideDisplay()
-}
+// for(let j = 0; j < arr.length; j++){
+//     console.log('hit!')
+//     hideDisplay()
+// }
 
 
 
