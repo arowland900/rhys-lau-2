@@ -4,9 +4,15 @@ body {
     /* overflow: hidden; */
     height: 650px;
 }
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
 .center {
-    margin: auto;
+    /* margin: auto; */
     width: 100%;
+    padding: 10px;
+    
 }
 .main1 {
     padding-top: 65px;
