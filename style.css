@@ -1,17 +1,15 @@
-body { background-color: #525659;}
+body { 
+    background-image: url('./images/texture.png') !important;
+    color: white;
+}
 .center {
     margin: auto;
     width: 60%;
-    /* margin-top: -650px; */
 }
-.main1 {
+/* .main1 {
     padding: 3vw;
-}
-
-/* .musicHolder .pdfHolder {
-    margin: auto;
-    width: 100%;
 } */
+
 
 .container {
     display: flex;
