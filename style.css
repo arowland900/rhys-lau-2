@@ -66,14 +66,29 @@ body {
     
 }
 
-@media screen and (min-height: 812px) and (max-height: 1024px) {
+@media screen and (min-height: 812px) and (max-height: 1023px) {
 
     #pdf {
-        padding-top: 2vh;
+        /* padding-top: 1vh; */
         height: 60vh
     }
     #sc {
-        padding-top: 2vh;
+        padding-top: 1vh;
+        height: 30vh
+
+    }
+
+    
+}
+
+@media screen and (min-height: 1024px) and (max-height: 1366px) {
+
+    #pdf {
+        padding-top: 1vh;
+        height: 70vh
+    }
+    #sc {
+        padding-top: 1vh;
         height: 20vh
 
     }
