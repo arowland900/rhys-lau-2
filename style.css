@@ -1,14 +1,16 @@
 body { 
     background-image: url('./images/texture.png') !important;
     color: white;
+    /* overflow: hidden; */
+    height: 650px;
 }
 .center {
     margin: auto;
-    width: 60%;
+    width: 100%;
 }
-/* .main1 {
-    padding: 3vw;
-} */
+.main1 {
+    padding-top: 65px;
+}
 
 
 .container {
