@@ -1,29 +1,38 @@
-body { 
-    background-image: url('./images/texture.png') !important;
-    color: white;
-    /* overflow: hidden; */
-    height: 650px;
+* {
+    font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
 }
+html {
+    background-color: #333940;
+    background-image: url('./images/texture.png') !important;
+}
+
+body {
+    background-image: url('./images/texture.png') !important;
+    background-repeat: repeat-y;
+    color: white;
+    overflow-y: hidden; 
+    height: 400px;
+}
+
 .nopadding {
     padding: 0 !important;
     margin: 0 !important;
- }
+}
+
 .center {
     /* margin: auto; */
     width: 100%;
     padding: 10px;
-    
 }
+
 .main1 {
     padding-top: 65px;
 }
-
 
 .container {
     display: flex;
     justify-content: space-between;
 }
-
 
 #top {
     margin: auto;
