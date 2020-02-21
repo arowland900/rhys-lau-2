@@ -4,14 +4,15 @@
 html {
     background-color: #333940;
     background-image: url('./images/texture.png') !important;
+    background-repeat: repeat-y;
 }
 
 body {
     background-image: url('./images/texture.png') !important;
     background-repeat: repeat-y;
     color: white;
-    overflow-y: hidden; 
-    height: 400px;
+    /* overflow-y: hidden;  */
+    height: 600px;
 }
 
 .nopadding {
