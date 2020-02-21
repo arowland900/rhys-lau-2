@@ -23,7 +23,7 @@ body {
 .center {
     /* margin: auto; */
     width: 100%;
-    padding: 10px;
+    /* padding: 1px; */
 }
 
 .main1 {
@@ -32,7 +32,7 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #top {
@@ -43,10 +43,40 @@ body {
     padding-bottom: 1vh;
 }
 
-@media screen and (max-width: 990px) {
-    .center {
+@media screen and (max-width: 1024px) {
+    /* .center {
         width: 100%;
         margin-top: 0px;
         height: 500px;
+    } */
+    .container {
+        display: block;
     }
+    #pdf {
+        height: 65vh
+    }
+    #sc {
+        padding-top: 2vh;
+        height: 20vh
+
+    }
+    #video {
+        display: none;
+    }
+    
+}
+
+@media screen and (min-height: 812px) and (max-height: 1024px) {
+
+    #pdf {
+        padding-top: 2vh;
+        height: 60vh
+    }
+    #sc {
+        padding-top: 2vh;
+        height: 20vh
+
+    }
+
+    
 }
