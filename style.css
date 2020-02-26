@@ -14,8 +14,8 @@ body {
     background-image: url('./images/texture.png') !important;
     background-repeat: repeat-y;
     color: white;
-    overflow-y: hidden;
-    height: 600px;
+    /* overflow-y: hidden; */
+    /* height: 600px; */
 }
 
 /* iframe {
