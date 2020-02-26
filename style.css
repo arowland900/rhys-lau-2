@@ -20,6 +20,11 @@ body {
     margin: 0 !important;
 }
 
+#pdf {
+    overflow: auto; 
+    -webkit-overflow-scrolling: touch;
+}
+
 .center {
     width: 100%;
     padding-left: 0.5%;
