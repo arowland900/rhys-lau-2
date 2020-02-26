@@ -73,7 +73,7 @@ body {
         height: 70vh
     }
     #sc {
-        /* padding-top: 2vh; */
+
         height: 30vh
     }
     #video {
@@ -81,27 +81,24 @@ body {
     }
 }
 
-@media screen and (min-height: 400px) and (max-height: 811px) {
+@media screen and (min-height: 400px) and (max-height: 811px) and (max-width: 1000px) {
     #pdf {
         height: 65vh
     }
     #sc {
-        /* padding-top: 1vh; */
+
         height: 20vh
     }
 }
 
-@media screen and (min-height: 812px) and (max-height: 1023px) {
+@media screen and (min-height: 812px) and (max-height: 1023px) and (min-width: 375px) and (max-width: 411px) {
     #pdf {
         height: 60vh
     }
     #sc {
-        /* padding-top: 1vh; */
-        height: 30vh
+        height: 25vh
     }
-    #video {
-        height: 40vh;
-    }
+
 }
 
 @media screen and (min-height: 1024px) and (max-height: 1366px) {
