@@ -11,7 +11,7 @@ body {
     background-image: url('./images/texture.png') !important;
     background-repeat: repeat-y;
     color: white;
-    /* overflow-y: hidden;  */
+    overflow-y: hidden; 
     height: 600px;
 }
 
@@ -21,9 +21,7 @@ body {
 }
 
 .center {
-    /* margin: auto; */
     width: 100%;
-    /* padding: 1px; */
 }
 
 .main1 {
@@ -44,11 +42,6 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
-    /* .center {
-        width: 100%;
-        margin-top: 0px;
-        height: 500px;
-    } */
     .container {
         display: block;
     }
@@ -69,7 +62,6 @@ body {
 @media screen and (min-height: 812px) and (max-height: 1023px) {
 
     #pdf {
-        /* padding-top: 1vh; */
         height: 60vh
     }
     #sc {
