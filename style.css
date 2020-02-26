@@ -1,5 +1,7 @@
 * {
     font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+    -webkit-overflow-scrolling: touch;
+    overflow: auto;
 }
 html {
     background-color: #333940;
