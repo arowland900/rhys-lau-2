@@ -10,17 +10,20 @@ html {
     background-repeat: repeat-y;
 }
 
+.padleft {
+    padding-left: 50wv;
+}
+
+.padright {
+    padding-right: 50wv;
+}
+
 body {
     background-image: url('./images/texture.png') !important;
     background-repeat: repeat-y;
     color: white;
-    /* overflow-y: hidden; */
-    /* height: 600px; */
 }
 
-/* iframe {
-    height: 620;
-} */
 
 .nopadding {
     padding: 0 !important;
@@ -28,18 +31,13 @@ body {
 }
 
 #pdf {
-    /* overflow: auto; 
-    -webkit-overflow-scrolling: touch; */
-    /* position: absolute; */
     top: 0;
     left: 0;
     width: 100%;
-    /* height: 100%; */
 }
 
 .center {
     width: 100%;
-    /* height: 800px; */
     padding-left: 0.5%;
     padding-right: 0.5%;
 }
